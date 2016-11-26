@@ -1,0 +1,615 @@
+*{
+	margin: 0;
+	padding: 0;
+ }
+a{
+	text-decoration: none;
+ }
+li{
+	list-style: none;
+ }
+ img{
+ 	border: none;
+ }
+.obj{
+	width: 100%;
+	background: url(../img/headbj.png) repeat-y center;
+   }
+.head{
+	display: block;;
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+   }
+	.head h1{
+		position: absolute;
+		top: 28px;
+		left: 0;
+	}
+	.head ul{
+		float: right;
+		margin-top: 60px;
+		margin-right: 80px;
+	}
+	.head ul a{
+		display: inline-block;
+		width: 90px;
+		height:40px;
+		color: white;
+		text-align: center;
+		font-size: 16px;
+		position: relative;
+	}
+	.head ul a img{
+		display: none;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	.head ul li{
+		float: left;
+		margin-right: 10px;
+	}
+	.head .font{
+		position: absolute;
+		top: 16px;
+		right: 0;
+		font-size: 12px;
+		color: white;
+	}
+	.head .font a{
+		color: white;
+	}
+	.head .search{
+		position: absolute;
+		top: 58px;
+		right: 0;
+	}
+	 .son1{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son1 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son1 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son1 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son1 .soncen li:hover a{
+		color: red;
+	}
+	.son1 .soncen a{
+		color: #666666;
+	}
+	
+	 .son2{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son2 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son2 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son2 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son2 .soncen li:hover a{
+		color: red;
+	}
+	.son2 .soncen a{
+		color: #666666;
+	}
+	.son3{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son3 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son3 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son3 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son3 .soncen li:hover a{
+		color: red;
+	}
+	.son3 .soncen a{
+		color: #666666;
+	}
+	.son4{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son4 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son4 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son4 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son4 .soncen li:hover a{
+		color: red;
+	}
+	.son4 .soncen a{
+		color: #666666;
+	}
+	
+	.son5{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son5 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son5 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son5 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son5 .soncen li:hover a{
+		color: red;
+	}
+	.son5 .soncen a{
+		color: #666666;
+	}
+	
+	.son6{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son6 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son6 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son6 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son6 .soncen li:hover a{
+		color: red;
+	}
+	.son6 .soncen a{
+		color: #666666;
+	}
+	
+	.son7{
+		width: 100%;
+		background: white;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 10;
+		display: none;
+	}
+	.son7 .soncen{
+		width: 1200px;
+		height: 252px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.son7 .soncen ul{
+		padding-top: 38px;
+		padding-left: 478px;
+	}
+	.son7 .soncen li{
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.son7 .soncen li:hover a{
+		color: red;
+	}
+	.son7 .soncen a{
+		color: #666666;
+	}
+	.soncen .xian{
+		position: absolute;
+		top: 38px;
+		left: 642px;
+	}
+	.soncen .soncentu{
+		position: absolute;
+		top: 38px;
+		left: 712px;
+	}
+	
+	
+	
+.lunbo{
+	width: 100%;
+	background: url(../img/tu1.png) no-repeat center;
+}
+.zhutiLunBo{
+	width: 1200px;
+	margin: 0 auto;
+	height: 980px;
+	position: relative;
+	overflow: hidden;
+}
+.zhutiLunBo .zhutiLunBoul{
+	width: 10000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zhutiLunBo .zhutiLunBoul li{
+	float: left;
+}
+.zhutiLunBo .zhutiLunBoul img{
+	padding-top: 150px;
+	padding-left: 110px;
+}
+.zhutibtn{
+	position: absolute;
+	bottom: 26px;
+	left: 520px;
+}
+.zhutibtn li{
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin-right: 30px;
+	background: url(../img/dian1.png) no-repeat center;
+}
+.zhutibtn li.zhution{
+	background: url(../img/dian2.png) no-repeat center rgba(255,255,255,0.6);
+}
+
+
+
+.chanpin{
+	width: 100%;
+	background: #eef0f1;
+}
+.chanpincen{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.chanpincen h2{
+	font-size: 30px;
+	padding-top: 60px;
+	padding-bottom: 32px;
+}
+.chanpincen div{
+	float: left;
+	width: 380px;
+	height: 180px;
+	margin-right: 20px;
+	background: white;
+	box-sizing: border-box;
+}
+.chanpincen div a{
+	display: inline-block;
+	width: 380px;
+	height: 180px;
+	box-sizing: border-box;
+	color: #333333;
+}
+
+.chanpincen div a:hover{
+	background: url(../img/border.png) no-repeat;
+}
+.chanpincen div p{
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 28px;
+	padding-bottom: 24px;
+	font-weight: 700;
+	padding-left:19px;
+}
+.chanpincen div span{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 12px;
+	padding:0 20px;
+	color: #666666;
+}
+.chanpincen .more{
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: 52px;
+}
+
+
+.fangan{
+	width: 100%;
+
+}
+.fangancen{
+	width: 1200px;
+	height: 702px;
+	margin: 0 auto;
+	
+}
+.fangancen h2{
+	font-size: 30px;
+	padding-top: 60px;
+	padding-bottom: 32px;
+}
+.fangancen span{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 36px;
+	color: #666666;
+}
+.fanganul li{
+	display: block;
+	float: left;
+	width: 380px;
+	height: 180px;
+	margin-right: 30px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+}
+.fanganul li img{
+	width: 100%;
+}
+.fanganul li .fangdi{
+	width: 380px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+	background: black\0;
+	+background: black;
+	
+}
+
+.fanganul li .fangact{
+	font-size: 16px;
+	line-height: 40px;
+	color:white;
+	font-weight: 800;
+	padding-left: 20px;
+}
+
+.fanganul li .zhezhao{
+	width: 380px;
+	height: 180px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.7);
+	display: none;
+	background: black\0;
+	+background: black;
+}
+.fanganul li .zhezhao p{
+	font-size: 16px;
+	color: white;
+	padding-top: 36px;
+	padding-left: 22px;
+}
+.fanganul li .zhezhao span{
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	padding-top: 16px;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.fanganul li .zhezhao i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: url(../img/right.png) no-repeat center white;
+	position: absolute;
+	left: 84px;
+	bottom: 22px;
+}
+
+.dibu{
+	width: 100%;
+	background: #414141;
+}
+.dibucen{
+	display: block;
+	width: 1200px;
+	height: 255px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.dibucen div{
+	float: left;
+	margin-right: 60px;
+}
+.dibucen h3{
+	width: 100px;
+	height: 28px;
+	padding-top: 35px;
+	font-size: 14px;
+	color: #ececec;
+	display: inline-block;
+	position: relative;
+
+}
+.dibucen li{
+	font-size: 12px;
+	
+}
+.dibucen li a{
+	color: #a09f9f;
+}
+.dibucen .xiacen{
+	width: 100px;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.dibucen .shangcen{
+	z-index: 10;
+	width: 20px;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.dibucen ul{
+	padding-top: 20px;
+}
+.dibucen li{
+	margin-bottom: 12px;
+}
+.dibucen .yanzheng{
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+.dibucen .xiaozong{
+	margin: 0;
+	position: absolute;
+	top: 204px;
+	right: 0;
+}
+.dibucen .xiaozong a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #535353;
+}
+.dibucen a{
+	margin-right: 5px;
+}
+.dibucen .xiao1{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	background: url('../img/xiao1.png') no-repeat center;
+}
+.dibucen .xiao2{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	background: url('../img/xiao2.png') no-repeat center;
+}
+.dibucen .xiao3{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	background: url('../img/xiao3.png') no-repeat center;
+}
+.dibucen .xiao4{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	background: url('../img/xiao4.png') no-repeat center;
+}
+
+
+.last{
+	width: 100%;
+	background: #393939;
+}
+.lastcen{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+.lastcen span{
+	color: #999999;
+	font-size: 12px;
+	line-height: 50px;
+}
+.lastcen ul{
+	float: right;
+}
+.lastcen ul li{
+	width: 55px;
+	float: left;
+	font-size: 12px;
+	margin-right: 6px;
+	border-right: 1px solid #999999;
+	margin-top: 19px;
+}
+.lastcen ul li a{
+	color: #999999;
+}
+
